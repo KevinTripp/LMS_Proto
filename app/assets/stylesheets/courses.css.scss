@@ -1,0 +1,26 @@
+// Place all the styles related to the Courses controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.unit{
+  display: inline-block;
+}
+
+.unit a{
+  padding: 10px;
+  text-decoration: none;
+  border:3px solid transparent;
+  border-bottom: 3px solid #004F70;
+  border-radius: 3px;
+  margin: 5px;
+  background: #009ee0;
+  color:#fff;
+}
+.unit a:visited{
+  color:#fff;
+}
+.unit a:hover{
+  color:#009ee0;
+  background:#fff;
+  border:3px solid #009ee0;
+}
